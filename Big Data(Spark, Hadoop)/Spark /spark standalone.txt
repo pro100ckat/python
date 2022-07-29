@@ -1,0 +1,57 @@
+Standalone mode
+
+1)Скачиваем Spark
+wget https://www.apache.org/dyn/closer.lua/spark/spark-2.3.2/spark-2.3.2-bin-hadoop2.7.tgz
+
+2) Распоковываем
+tar -xvf spark-2.3.2-bin-hadoop2.7.tgz
+
+3) Открываем bashrc любым редактором(в данном случае nano)
+nano ~/.bashrc
+
+4)Указываем пути Path, HOME
+PATH=$PATH:$SPARK_HOME/bin
+SPARK_HOME=$HOME/spark-2.3.2-bin-hadoop2.7
+export SPARK_HOME
+ 
+5) Обновляем source 
+
+source ~/.bashrc
+
+6) Запуск Stand alone master спарк
+./sbin/start-master.sh
+
+
+7) добавление пользователя 
+./sbin/start-slave.sh spark://<имя компьютера(не пользователя)>:7070
+
+7)Проверка демонов
+jps
+
+вывод
+6757 Master
+6575 Worker
+
+8) localhost:8080 - локальный хост спарка
+
+9)Запуск пробного приложения спарк
+
+user@user-pc:~/spark-2.3.2-bin-hadoop2.7$ ./bin/spark-submit --class org.apache.spark.examples.SparkPi --master spark://user-pc:7077 --executor-memory 1G --total-executor-cores 1 /home/user/spark-2.3.2-bin-hadoop2.7/examples/jars/spark-examples_2.11-2.3.2.jar 10
+
+Ответом будет срочка pi is roughly 3.141347141347141
+
+10)Запуск Spark shell
+
+bin/spark-shell spark://user-pc:7077
+
+11) Для того чтобы попробовать возможности спарка, необходимо создать RDD и выполнить операции, которые можно найти по ссылке ниже
+
+Понятная и разборчивая инструкция по Scala для спарка через Shell с примерами
+https://data-flair.training/blogs/spark-installation-standalone-mode/ 
+
+Для тех, кто не понял инструкцию - читайте этот сайт https://data-flair.training/blogs/spark-installation-standalone-mode/
+
+12)Понятная инструкция по работе со Spark через java eclipse https://data-flair.training/blogs/create-spark-scala-project/ с примерами
+13) Инструкция по установке Spark Yarn. Смотреть с заголовка Integrate Spark with YARNP, если хадуп уже установлен и настроен https://www.linode.com/docs/databases/hadoop/install-configure-run-spark-on-top-of-hadoop-yarn-cluster/
+14) Инструкция по установке Spark 3-Node Hadoop Cluster. У большиснтва уже готово и настроено. На всякий случай. https://www.linode.com/docs/databases/hadoop/how-to-install-and-set-up-hadoop-cluster/
+

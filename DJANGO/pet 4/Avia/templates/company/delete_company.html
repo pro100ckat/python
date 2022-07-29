@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %} {% endblock title %}
+
+
+{% block content %}
+    <form action="" method="POST">
+    {% csrf_token %}
+        <div align="center">
+        <p>Хотите удалить компанию: {{ company.company_name }}?</p>
+        <input type="submit" class="btn btn-dark" value="Да" name="yes">
+        <input type="submit" class="btn btn-dark" value="Нет" name="no">
+        </div>
+    </form>
+{% endblock content %}

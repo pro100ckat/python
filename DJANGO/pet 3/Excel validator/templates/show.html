@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    Все файлы
+{% endblock title %}
+
+{% block photos_content %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<form method="post" action="{% url 'clear_all' %}">
+    {% csrf_token %}
+    <input type="hidden" name="next" value="{{ request.path }}">
+    <button type="submit" class="btn btn-danger pull-left">
+      <span class="glyphicon glyphicon-trash"></span> Очистить БД
+    </button>
+    </form>
+
+    <form action="{% url 'delete' %}" method="POST">
+    {% csrf_token %}
+    <input type="submit" name="delete" value="Удалить несколько" class="btn btn-danger" role="button">
+    <a href="{% url "check"  %}" class="btn btn-primary" role="button">Выбрать</a></td>
+    <br>
+    <br>
+    <table id="gallery" class="table table-bordered" style="background-color: white">
+    <thead class="bg-info">
+      <tr>
+        <th></th>
+          <th>Файлы</th>
+          <th style="text-align: center">Удаление</th>
+          <th style="text-align: center">Проверка файла</th>
+      </tr>
+    <tr>
+        <td align="center">ID</td>
+          <td >Путь/Название</td>
+          <td></td>
+          <td></td>
+    </tr>
+
+    </thead>
+    <tbody>
+      {% for file in files %}
+        <tr>
+        <div>
+        <td align="center">
+            <input name="checkbox" type="checkbox" value="{{ file.file_id }}" > {{ file.file_id }}
+        </td>
+            </div>
+          <td><a href="{{ file.file.url }}">{{ file.file.name }}</a></td>
+        <td align="center">
+
+            <a href="{% url "delete_file" file.file_id %}" class="glyphicon glyphicon-trash" role="button" type="submit"></a>
+        </td>
+
+           <td align="center">
+               <a href="{% url "check_one" file.file_id %}" class="btn btn-primary" role="button">Выбрать</a>
+        </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</form>
+{% endblock %}

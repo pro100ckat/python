@@ -1,0 +1,32 @@
+{% extends "base_home.html" %}
+
+{% block content %}
+    {% load static %}
+    <div class="container" style="margin-top: 2px;">
+        <div class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row featurette">
+                        <div class="col-md-7 first">
+                            <h8 class="featurette-heading display-2"> <span
+                                    class="text-muted">Проверка учебных планов</span></h8>
+                            <p class="lead"><br>
+                                 Описание работы программы
+                            </p>
+                            <pre>def&#32;find_index(a,sheet,count):<br>&#32;&#32;&#32;&#32;index&#32;=&#32;0<br>&#32;&#32;&#32;&#32;sheet_shablon&#32;=&#32;sheet<br>&#32;&#32;&#32;&#32;row_count&#32;=&#32;count<br>&#32;&#32;&#32;&#32;for&#32;i&#32;in&#32;range(1,&#32;row_count&#32;+&#32;1):<br>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;if&#32;sheet_shablon.cell(row=i,&#32;column=1).value&#32;==&#32;a:<br>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;index&#32;=&#32;sheet_shablon.cell(row=i,&#32;column=1).row&#32;&#32;#&#32;нашли&#32;строку&#32;от&#32;которой&#32;нужно&#32;выбирать&#32;данные<br>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;break<br>&#32;&#32;&#32;&#32;return&#32;index</pre>
+                        <pre>def&#32;give_list(i1,&#32;j1,&#32;sheet,&#32;sheet2,m,n):<br>&#32;&#32;&#32;&#32;list&#32;=&#32;[]<br>&#32;&#32;&#32;&#32;sheet_shablon&#32;=&#32;sheet<br>&#32;&#32;&#32;&#32;sheet_wb&#32;=&#32;sheet2<br>&#32;&#32;&#32;&#32;a=m<br>&#32;&#32;&#32;&#32;b=n<br>&#32;&#32;&#32;&#32;for&#32;i&#32;in&#32;range(a&#32;+&#32;2,&#32;b):<br>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;for&#32;j&#32;in&#32;range(i1,&#32;j1):<br>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;list.append(sheet_shablon.cell(row=i,&#32;column=j).value)<br>&#32;&#32;&#32;&#32;k&#32;=&#32;0<br>&#32;&#32;&#32;&#32;for&#32;i&#32;in&#32;range(a&#32;+&#32;2,&#32;b):<br>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;for&#32;j&#32;in&#32;range(i1,&#32;j1):<br>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;if&#32;(sheet_wb.cell(row=i,&#32;column=j).value)&#32;!=&#32;list[k]:<br>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;sheet_wb.cell(row=i,&#32;column=j).fill&#32;=&#32;PatternFill(fill_type='solid',&#32;start_color='fe0101',&#32;end_color='fe0101')<br>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;k&#32;=&#32;k&#32;+&#32;1<br>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;else:<br>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;sheet_wb.cell(row=i,&#32;column=j).fill&#32;=&#32;PatternFill(fill_type='solid',&#32;start_color='ffffff',&#32;end_color='ffffff')<br>&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;k&#32;=&#32;k&#32;+&#32;1<br>&#32;&#32;&#32;&#32;return&#32;locals()</pre>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="{% static "img/10.png" %}" class="img-fluid rounded second" alt="Responsive image"  width="300" align="right">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+{% endblock content %}

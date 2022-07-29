@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Марки
+{% endblock title %}
+
+{% block content %}
+    <div class="container" style="margin-top: 80px;">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                    <table class="table table-hover" style="background-color: white">
+                    <thead class="bg-info">
+                    <tr>
+                        <td>Название</td>
+                        <td>Короткое описание</td>
+                        <td>Цена</td>
+                        <td>Изменить</td>
+                        <td>Удалить</td>
+                    </tr>
+                    </thead>
+                     {% for tariff in tariffs_list %}
+                        <tr>
+                            <td>{{ tariff.name }}</td>
+                            <td>{{ tariff.description }}</td>
+                            <td>{{ tariff.price }}</td>
+                            <td><a href="{% url "edit_tariff" tariff.tariff_id %}" class="btn btn-primary" role="button">Изменить</a>
+                            </td>
+                            <td><a href="{% url "delete_tariff" tariff.tariff_id %}" class="btn btn-secondary" role="button">Удалить</a></td>
+                        </tr>
+                    {% endfor %}
+                    </table>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-2 offset-md-10">
+                <a href="{% url "admin_menu" %}" class="btn btn-primary" role="button">На главную</a>
+            </div>
+        </div>
+
+
+    </div>
+{% endblock content %}

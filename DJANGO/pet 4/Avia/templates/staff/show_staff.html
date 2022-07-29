@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %} staff {% endblock title %}
+{% block content %}
+<div align="center">
+    <table class="table table-hover">
+    <thead class="bg-info">
+        <tr>
+            <td>ФИО</td>
+            <td>График</td>
+            <td>ID должности</td>
+            <td>ID самолета</td>
+            <td>Изменить</td>
+            <td>Удалить</td>
+        </tr>
+     </thead>
+{% for staff in staff_list  %}
+    <tr>
+        <td>{{ staff.FIO }}</td>
+        <td>{{ staff.grafik }}</td>
+        <td>{{ staff.id_post_id }}</td>
+        <td>{{ staff.id_aircrafts_id }}</td>
+        <td><a href="{% url "edit_staff" staff.staff_id %}" class="btn btn-primary" role="button">Изменить</a></td>
+        <td><a href="{% url "delete_staff" staff.staff_id %}" class="btn btn-secondary" role="button">Удалить</a></td>
+    </tr>
+{% endfor %}
+</table>
+</div>
+{% endblock content %}

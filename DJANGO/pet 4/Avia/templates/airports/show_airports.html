@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}airports{% endblock title %}
+{% block content %}
+<div align="center">
+    <table class="table table-hover">
+    <thead class="bg-info">
+        <tr>
+            <td>Код аэропорта</td>
+            <td>Название</td>
+            <td>Город</td>
+            <td>Время</td>
+            <td>Изменить</td>
+            <td>Удалить</td>
+        </tr>
+     </thead>
+{% for airports in airports_list  %}
+    <tr>
+        <td>{{ airports.airports_code }}</td>
+        <td>{{ airports.airports_name }}</td>
+        <td>{{ airports.airports_city }}</td>
+        <td>{{ airports.timezone }}</td>
+        <td><a href="{% url "edit_airports" airports.airports_id %}" class="btn btn-primary" role="button">Изменить</a></td>
+        <td><a href="{% url "delete_airports" airports.airports_id %}" class="btn btn-secondary" role="button">Удалить</a></td>
+    </tr>
+{% endfor %}
+</table>
+</div>
+{% endblock content %}

@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title %} tickets {% endblock title %}
+{% block content %}
+<div align="center">
+    <table class="table table-hover">
+    <thead class="bg-info">
+        <tr>
+            <td>Номер билета</td>
+            <td>Номер рейса</td>
+            <td>Рейс</td>
+            <td>Цена билета</td>
+            <td>Статус</td>
+            <td>Дата</td>
+            <td>id посадочного талона</td>
+            <td>id условий перелета</td>
+            <td>ID пассажира</td>
+            <td>Изменить</td>
+            <td>Удалить</td>
+        </tr>
+     </thead>
+{% for tickets in tickets_list  %}
+    <tr>
+        <td>{{ tickets.tickets_number }}</td>
+        <td>{{ tickets.tickets_flight}}</td>
+        <td>{{ tickets.id_flight_id}}</td>
+        <td>{{ tickets.tickets_price }}</td>
+        <td>{{ tickets.status}}</td>
+        <td>{{ tickets.tickets_date }}</td>
+        <td>{{ tickets.id_boarding_pass_id }}</td>
+        <td>{{ tickets.id_flight_conditions_id }}</td>
+        <td>{{ tickets.id_passenger_id }}</td>
+        <td><a href="{% url "edit_tickets" tickets.tickets_id %}" class="btn btn-primary" role="button">Изменить</a></td>
+        <td><a href="{% url "delete_tickets" tickets.tickets_id %}" class="btn btn-secondary" role="button">Удалить</a></td>
+    </tr>
+{% endfor %}
+</table>
+</div>
+{% endblock content %}

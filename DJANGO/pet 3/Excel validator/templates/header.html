@@ -1,0 +1,27 @@
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{% url 'main_page' %}">Excell APP</a>
+    </div>
+    <div class="collapse navbar-collapse" id="main-menu">
+      <ul class="nav navbar-nav">
+        <li{% if '/photos/' in request.path %} class="active"{% endif %}>
+          <a href="{% url 'upload' %}">Загрузка</a>
+        </li>
+       <li{% if '/show/' in request.path %} class="active"{% endif %}>
+          <a href="{% url 'show' %}">Проверка</a>
+        </li>
+        <li{% if '/about/' in request.path %} class="active"{% endif %}>
+          <a href="{% url 'about' %}">Описание функций</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>

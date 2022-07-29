@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Equipment{% endblock title %}
+
+
+{% block content %}
+    <div align="center">
+    <table class="table table-hover">
+    <thead class="bg-info">
+        <tr>
+            <td>Наименование оборудования</td>
+            <td>Цена</td>
+            <td>Количество</td>
+            <td>Дата поступления</td>
+            <td>Страна</td>
+            <td>Тип оборудования</td>
+            <td>Продавец</td>
+            <td>Поставщик</td>
+            <td>Фирма производитель</td>
+            <td>Изменить</td>
+            <td>Удалить</td>
+        </tr>
+     </thead>
+{% for equipment in equipment_list  %}
+    <tr >
+        <td>{{ equipment.equipment_name }}</td>
+        <td>{{ equipment.equipment_price }}</td>
+        <td>{{ equipment.equipment_size }}</td>
+        <td>{{ equipment.equipment_date }}</td>
+        <td>{{ equipment.equipment_country }}</td>
+        <td>{{ equipment.id_equipment_type }}</td>
+        <td>{{ equipment.id_seller }}</td>
+        <td>{{ equipment.id_provider }}</td>
+        <td>{{ equipment.id_firm }}</td>
+        <td><a href="{% url "edit_equipment" equipment.equipment_id %}" class="btn btn-primary" role="button">Изменить</a></td>
+        <td><a href="{% url "delete_equipment" equipment.equipment_id %}" class="btn btn-secondary" role="button">Удалить</a></td>
+    </tr>
+{% endfor %}
+</table>
+</div>
+
+{% endblock content %}

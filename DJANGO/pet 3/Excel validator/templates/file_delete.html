@@ -1,0 +1,17 @@
+{% extends 'base_home.html' %}
+
+{% block title %}Delete{% endblock title %}
+
+
+{% block content %}
+    <div class="container" style="margin-top: 80px">
+    <form action="" method="POST">
+    {% csrf_token %}
+        <div align="center">
+        <p>Хотите удалить: {{ name_delete }} ?</p>
+        <input type="submit"  value="Да" name="delete">
+        <input type="submit"  value="Нет" name="no">
+        </div>
+    </form>
+    </div>
+{% endblock content %}

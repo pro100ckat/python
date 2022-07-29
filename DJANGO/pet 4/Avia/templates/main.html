@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block title %}Main menu{% endblock title %}
+
+{% block content %}
+    {% csrf_token %}
+    <h1 align="center">Главное меню</h1>
+    <table border="1px solid black" cellpadding="5" cellspacing="0" align="center" bgcolor="#b0c4de">
+        <tr>
+            <td><a href="{% url "post"  %} ">Показать должности</a></td>
+            <td><a href="{% url "add_post"  %} ">Добавить должность</a></td>
+            <td><a href="{% url "aircrafts"  %} ">Показать самолеты</a></td>
+            <td><a href="{% url "add_aircrafts"  %} ">Добавить самолеты</a></td>
+            <td><a href="{% url "airports"  %} ">Показать аэропорты</a></td>
+            <td><a href="{% url "add_airports"  %} ">Добавить аэропорты</a></td>
+            <td><a href="{% url "boarding_pass"  %} ">Показать посадочные талоны</a></td>
+            <td><a href="{% url "add_boarding_pass"  %} ">Добавить посадочные талоны</a></td>
+            <td><a href="{% url "company"  %} ">Показать компании</a></td>
+            <td><a href="{% url "add_company"  %} ">Добавить компании</a></td>
+            <td><a href="{% url "contacts"  %} ">Показать контактные данные</a></td>
+            <td><a href="{% url "add_contacts"  %} ">Добавить контактные данные</a></td>
+            <td><a href="{% url "flight"  %} ">Показать рейсы</a></td>
+            <td><a href="{% url "add_flight"  %} ">Добавить рейсы</a></td>
+            <td><a href="{% url "flight_conditions"  %} ">Показать условия перелета</a></td>
+            <td><a href="{% url "add_flight_conditions"  %} ">Добавить условия перелета</a></td>
+            <td><a href="{% url "model_aircraft"  %} ">Показать модели самолетов</a></td>
+            <td><a href="{% url "add_model_aircraft"  %} ">Добавить модели самолетов</a></td>
+            <td><a href="{% url "passenger"  %} ">Показать пассажиров</a></td>
+            <td><a href="{% url "add_passenger"  %} ">Добавить пассажира</a></td>
+            <td><a href="{% url "staff"  %} ">Показать сотрудников</a></td>
+            <td><a href="{% url "add_staff"  %} ">Добавить сотрудников</a></td>
+            <td><a href="{% url "tickets"  %} ">Показать билеты</a></td>
+            <td><a href="{% url "add_tickets"  %} ">Добавить билеты</a></td>
+
+
+
+
+        </tr>
+
+    </table>
+{% endblock content %}

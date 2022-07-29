@@ -1,0 +1,49 @@
+{% extends "base_home.html" %}
+{% block title %}Проверка плана{% endblock title %}
+
+
+{% block content %}
+
+    <div class="container" style="margin-left: 500px" >
+        <form enctype="multipart/form-data" action="{% url 'check_one' file.file_id %}" method="POST">
+         {% csrf_token %}
+            <br style="margin-top: 5px">
+            <p>Вы выбрали файл: {{ file.file }}</p>
+                <h4>Выберите шаблон .xlsx:</h4>
+                <input type="file" name="shablon" value="file">
+            <br>
+                <h4>Выберите параметры проверки:</h4>
+
+                <div>
+                  <input type="checkbox" id="titul" name="titul" align="left">
+                  <label for="scales">Титульный лист</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="grafik" name="grafik" align="left">
+                  <label for="horns">График</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="plan" name="plan">
+                  <label for="horns">План</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="plan_svod" name="plan_svod">
+                  <label for="horns">План/Свод</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="comp" name="comp">
+                  <label for="horns">Компетенции</label>
+                </div>
+                 <div>
+                  <input type="checkbox" id="All" name="all">
+                  <label for="horns">Весь план</label>
+                </div>
+                 <div>
+                  <input type="checkbox" id="edit" name="edit">
+                  <label for="horns">Заменить ошибочные данные</label>
+                 </div></br>
+                <input type="submit" name="go" value="Выполнить" class="btn btn-primary">
+                <a href="{% url "show" %}" class="btn btn-danger"> Назад </a>
+</form>
+    </div>
+{% endblock content %}

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}contacts{% endblock title %}
+{% block content %}
+<div align="center">
+    <table class="table table-hover">
+    <thead class="bg-info">
+        <tr>
+            <td>Номер телефона</td>
+            <td>Mail</td>
+            <td>Адрес</td>
+            <td>Изменить</td>
+            <td>Удалить</td>
+        </tr>
+     </thead>
+{% for contacts in contacts_list  %}
+    <tr>
+        <td>{{ contacts.phone_number }}</td>
+        <td>{{ contacts.mail }}</td>
+        <td>{{ contacts.address }}</td>
+        <td><a href="{% url "edit_contacts" contacts.contacts_id %}" class="btn btn-primary" role="button">Изменить</a></td>
+        <td><a href="{% url "delete_contacts" contacts.contacts_id %}" class="btn btn-secondary" role="button">Удалить</a></td>
+    </tr>
+{% endfor %}
+</table>
+</div>
+{% endblock content %}

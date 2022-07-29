@@ -1,0 +1,91 @@
+h2 a:hover{
+    text-decoration: none;
+    color: steelblue;
+    transition: color 0.3s ease-in;
+}
+
+h2 a{
+    color: black;
+}
+
+.bg:hover {
+    color: black;
+    background-color: lightblue;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in;
+}
+
+.nonedec:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.list-group-item:hover{
+    background-color: aliceblue;
+    transition: background-color 0.3s ease-in;
+}
+
+.list-group{
+    background-color: lightblue;
+}
+
+li a{
+
+    /*font-weight: bold;*/
+
+
+}
+
+thead tr td a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+thead tr td:hover{
+    background-color: lightblue;
+    transition: background-color 0.3s ease-in;
+}
+
+
+td a{
+    color: black;
+    font-weight: bold ;
+}
+
+ul li{
+    list-style: none;
+}
+
+li a{
+    color: steelblue;
+}
+
+.content{
+    height: 100vh;
+}
+
+@keyframes strt{
+0%{
+opacity: 0;
+}
+100%{
+opacity: 1;
+}
+}
+
+.first{
+    animation: strt 1s ease;
+}
+
+.second{
+    animation: strt 2s ease;
+}
+
+.third{
+    animation: strt 3s ease;
+}
+
+.thoth{
+    animation: strt 4s ease;
+}
+

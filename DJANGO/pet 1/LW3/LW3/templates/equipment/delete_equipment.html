@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Delete equipment{% endblock title %}
+
+
+{% block content %}
+
+    <form action="" method="POST">
+    {% csrf_token %}
+        <div align="center">
+        <p>Хотите удалить оборудование: {{ equipment.equipment_name }}?</p>
+        <input type="submit"  value="Да" name="yes">
+        <input type="submit"  value="Нет" name="no">
+        </div>
+    </form>
+
+{% endblock content %}

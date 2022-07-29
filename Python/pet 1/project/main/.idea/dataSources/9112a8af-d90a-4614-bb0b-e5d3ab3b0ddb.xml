@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Base3@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.3">
+    <root id="1"/>
+    <database id="2" parent="1" name="Base3">
+      <ObjectId>41716</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="postgres">
+      <ObjectId>12938</ObjectId>
+    </database>
+    <database id="4" parent="1" name="Hospital">
+      <ObjectId>41319</ObjectId>
+    </database>
+    <schema id="5" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2017-11-18.01:32:48.320</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1032</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="6" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="information_schema">
+      <ObjectId>12648</ObjectId>
+    </schema>
+    <sequence id="11" parent="5" name="equipment_equipment_key_seq">
+      <ObjectId>41717</ObjectId>
+      <StateNumber>993</StateNumber>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="12" parent="5" name="equipment_type_equipment_type_id_seq">
+      <ObjectId>41726</ObjectId>
+      <StateNumber>995</StateNumber>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="13" parent="5" name="firm_id_firm_seq">
+      <ObjectId>41738</ObjectId>
+      <StateNumber>998</StateNumber>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="14" parent="5" name="provider_id_provider_seq">
+      <ObjectId>41747</ObjectId>
+      <StateNumber>1000</StateNumber>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="15" parent="5" name="seller_id_sellerss_seq">
+      <ObjectId>41756</ObjectId>
+      <StateNumber>1002</StateNumber>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <table id="16" parent="5" name="equipment">
+      <ObjectId>41719</ObjectId>
+      <StateNumber>1030</StateNumber>
+    </table>
+    <table id="17" parent="5" name="equipment_type">
+      <ObjectId>41728</ObjectId>
+      <StateNumber>1004</StateNumber>
+    </table>
+    <table id="18" parent="5" name="equipment_type_seller">
+      <ObjectId>41735</ObjectId>
+      <StateNumber>1008</StateNumber>
+    </table>
+    <table id="19" parent="5" name="firm">
+      <ObjectId>41740</ObjectId>
+      <StateNumber>1005</StateNumber>
+    </table>
+    <table id="20" parent="5" name="provider">
+      <ObjectId>41749</ObjectId>
+      <StateNumber>1006</StateNumber>
+    </table>
+    <table id="21" parent="5" name="seller">
+      <ObjectId>41758</ObjectId>
+      <StateNumber>1008</StateNumber>
+    </table>
+    <column id="22" parent="16" name="equipment_key">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>992</StateNumber>
+      <SequenceName>equipment_equipment_key_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;equipment_equipment_key_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="23" parent="16" name="equiment_name">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>1032</StateNumber>
+    </column>
+    <column id="24" parent="16" name="equipment_price">
+      <Position>3</Position>
+      <DataType>double precision|0</DataType>
+      <StateNumber>992</StateNumber>
+    </column>
+    <column id="25" parent="16" name="equipment_size">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>992</StateNumber>
+    </column>
+    <column id="26" parent="16" name="equipment_date">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+      <StateNumber>992</StateNumber>
+    </column>
+    <column id="27" parent="16" name="equipment_country">
+      <Position>6</Position>
+      <DataType>char(50)|0</DataType>
+      <StateNumber>992</StateNumber>
+    </column>
+    <column id="28" parent="16" name="if_firm">
+      <Position>7</Position>
+      <Comment>Суррогатный ключ</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>992</StateNumber>
+    </column>
+    <column id="29" parent="16" name="id_provider">
+      <Position>8</Position>
+      <Comment>Суррогатный ключ</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>992</StateNumber>
+    </column>
+    <column id="30" parent="16" name="id_equipment_type">
+      <Position>9</Position>
+      <Comment>суррогатный ключ</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>992</StateNumber>
+    </column>
+    <column id="31" parent="16" name="id_seller">
+      <Position>10</Position>
+      <Comment>суррогатный ключ</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>992</StateNumber>
+    </column>
+    <index id="32" parent="16" name="equipment_pkey">
+      <ObjectId>41723</ObjectId>
+      <ColNames>equipment_key</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="33" parent="16" name="equipment_pkey">
+      <ObjectId>41724</ObjectId>
+      <ColNames>equipment_key</ColNames>
+      <UnderlyingIndexName>equipment_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="34" parent="16" name="equipment_if_firm_fkey">
+      <ObjectId>41775</ObjectId>
+      <ColNames>if_firm</ColNames>
+      <RefTableId>41740</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>firm</RefTableName>
+      <RefKeyName>firm_pkey</RefKeyName>
+      <RefColNames>id_firm</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="35" parent="16" name="equipment_id_provider_fkey">
+      <ObjectId>41780</ObjectId>
+      <ColNames>id_provider</ColNames>
+      <RefTableId>41749</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>provider</RefTableName>
+      <RefKeyName>provider_pkey</RefKeyName>
+      <RefColNames>id_provider</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="36" parent="16" name="equipment_id_equipment_type_fkey">
+      <ObjectId>41765</ObjectId>
+      <ColNames>id_equipment_type</ColNames>
+      <RefTableId>41728</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>equipment_type</RefTableName>
+      <RefKeyName>equipment_type_pkey</RefKeyName>
+      <RefColNames>equipment_type_id</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="37" parent="16" name="equipment_id_seller_fkey">
+      <ObjectId>41785</ObjectId>
+      <ColNames>id_seller</ColNames>
+      <RefTableId>41758</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>seller</RefTableName>
+      <RefKeyName>seller_pkey</RefKeyName>
+      <RefColNames>id_sellerss</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <column id="38" parent="17" name="equipment_type_id">
+      <Position>1</Position>
+      <Comment>суррогатный ключ</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>994</StateNumber>
+      <SequenceName>equipment_type_equipment_type_id_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;equipment_type_equipment_type_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="39" parent="17" name="equipment_type_name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>994</StateNumber>
+    </column>
+    <index id="40" parent="17" name="equipment_type_pkey">
+      <ObjectId>41732</ObjectId>
+      <ColNames>equipment_type_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="41" parent="17" name="equipment_type_pkey">
+      <ObjectId>41733</ObjectId>
+      <ColNames>equipment_type_id</ColNames>
+      <UnderlyingIndexName>equipment_type_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="42" parent="18" name="equipment_type_id">
+      <Position>1</Position>
+      <Comment>суррогатный ключ</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>996</StateNumber>
+    </column>
+    <column id="43" parent="18" name="id_sellerss">
+      <Position>2</Position>
+      <Comment>суррогатный ключ</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>996</StateNumber>
+    </column>
+    <foreign-key id="44" parent="18" name="equipment_type_seller_equipment_type_id_fkey">
+      <ObjectId>41770</ObjectId>
+      <ColNames>equipment_type_id</ColNames>
+      <RefTableId>41728</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>equipment_type</RefTableName>
+      <RefKeyName>equipment_type_pkey</RefKeyName>
+      <RefColNames>equipment_type_id</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <foreign-key id="45" parent="18" name="equipment_type_seller_id_sellerss_fkey">
+      <ObjectId>41790</ObjectId>
+      <ColNames>id_sellerss</ColNames>
+      <RefTableId>41758</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>seller</RefTableName>
+      <RefKeyName>seller_pkey</RefKeyName>
+      <RefColNames>id_sellerss</RefColNames>
+      <OnDelete>restrict</OnDelete>
+      <OnUpdate>restrict</OnUpdate>
+    </foreign-key>
+    <column id="46" parent="19" name="id_firm">
+      <Position>1</Position>
+      <Comment>Суррогатный ключ</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>997</StateNumber>
+      <SequenceName>firm_id_firm_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;firm_id_firm_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="47" parent="19" name="firm">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1023</StateNumber>
+    </column>
+    <column id="48" parent="19" name="country">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <StateNumber>997</StateNumber>
+    </column>
+    <column id="49" parent="19" name="address">
+      <Position>4</Position>
+      <DataType>varchar(50)|0</DataType>
+      <StateNumber>997</StateNumber>
+    </column>
+    <column id="50" parent="19" name="firm_name">
+      <Position>5</Position>
+      <DataType>varchar(50)|0</DataType>
+      <StateNumber>1024</StateNumber>
+    </column>
+    <column id="51" parent="19" name="site">
+      <Position>6</Position>
+      <DataType>varchar(50)|0</DataType>
+      <StateNumber>997</StateNumber>
+    </column>
+    <index id="52" parent="19" name="firm_pkey">
+      <ObjectId>41744</ObjectId>
+      <ColNames>id_firm</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="53" parent="19" name="firm_pkey">
+      <ObjectId>41745</ObjectId>
+      <ColNames>id_firm</ColNames>
+      <UnderlyingIndexName>firm_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="54" parent="20" name="id_provider">
+      <Position>1</Position>
+      <Comment>Суррогатный ключ</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>999</StateNumber>
+      <SequenceName>provider_id_provider_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;provider_id_provider_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="55" parent="20" name="provider_name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>999</StateNumber>
+    </column>
+    <column id="56" parent="20" name="provider_country">
+      <Position>3</Position>
+      <DataType>char(50)|0</DataType>
+      <StateNumber>999</StateNumber>
+    </column>
+    <column id="57" parent="20" name="provider_address">
+      <Position>4</Position>
+      <DataType>char(50)|0</DataType>
+      <StateNumber>999</StateNumber>
+    </column>
+    <column id="58" parent="20" name="provider_number">
+      <Position>5</Position>
+      <DataType>char(50)|0</DataType>
+      <StateNumber>999</StateNumber>
+    </column>
+    <index id="59" parent="20" name="provider_pkey">
+      <ObjectId>41753</ObjectId>
+      <ColNames>id_provider</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="20" name="provider_pkey">
+      <ObjectId>41754</ObjectId>
+      <ColNames>id_provider</ColNames>
+      <UnderlyingIndexName>provider_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="61" parent="21" name="id_sellerss">
+      <Position>1</Position>
+      <Comment>суррогатный ключ</Comment>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>1001</StateNumber>
+      <SequenceName>seller_id_sellerss_seq</SequenceName>
+      <DefaultExpression>nextval(&apos;seller_id_sellerss_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="62" parent="21" name="name_seller">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <StateNumber>1001</StateNumber>
+    </column>
+    <column id="63" parent="21" name="seller_address">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <StateNumber>1001</StateNumber>
+    </column>
+    <column id="64" parent="21" name="seller_number">
+      <Position>4</Position>
+      <DataType>char(50)|0</DataType>
+      <StateNumber>1001</StateNumber>
+    </column>
+    <column id="65" parent="21" name="experience">
+      <Position>5</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>1001</StateNumber>
+    </column>
+    <column id="66" parent="21" name="seller_type">
+      <Position>6</Position>
+      <DataType>varchar(50)|0</DataType>
+      <StateNumber>1001</StateNumber>
+    </column>
+    <index id="67" parent="21" name="seller_pkey">
+      <ObjectId>41762</ObjectId>
+      <ColNames>id_sellerss</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="68" parent="21" name="seller_pkey">
+      <ObjectId>41763</ObjectId>
+      <ColNames>id_sellerss</ColNames>
+      <UnderlyingIndexName>seller_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

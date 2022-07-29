@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Add firm{% endblock title %}
+
+{% block content %}
+    <form action="" method="POST">
+    {% csrf_token %}
+        <div align="center">
+        <table class="table table-hover">
+            {{ form.as_table }}
+            </table>
+            <div>
+                <input type="submit"  value="Добавить" name="add" class="btn btn-primary">
+                <a href="{% url "main_menu" %}" class="btn btn-warning">Назад</a>
+            </div>
+        </div>
+    </form>
+{% endblock content %}

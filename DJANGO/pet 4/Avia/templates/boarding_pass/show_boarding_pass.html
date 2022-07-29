@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}Post{% endblock title %}
+{% block content %}
+<div align="center">
+    <table class="table table-hover">
+    <thead class="bg-info">
+        <tr>
+            <td>Номер посадочного талона</td>
+            <td>Место</td>
+            <td>Выход</td>
+            <td>Изменить</td>
+            <td>Удалить</td>
+        </tr>
+     </thead>
+{% for boarding_pass in boarding_pass_list  %}
+    <tr>
+        <td>{{ boarding_pass.boarding_pass_number }}</td>
+        <td>{{ boarding_pass.mesto }}</td>
+        <td>{{ boarding_pass.exit }}</td>
+        <td><a href="{% url "edit_boarding_pass" post.post_id %}" class="btn btn-primary" role="button">Изменить</a></td>
+        <td><a href="{% url "delete_boarding_pass" post.post_id %}" class="btn btn-secondary" role="button">Удалить</a></td>
+    </tr>
+{% endfor %}
+</table>
+</div>
+{% endblock content %}

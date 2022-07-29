@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %}Main menu{% endblock title %}
+
+{% block content %}
+    {% csrf_token %}
+    <h1 align="center">Главное меню</h1>
+    <table border="1px solid black" cellpadding="5" cellspacing="0" align="center" bgcolor="#b0c4de">
+        <tr>
+            <td><a href="{% url "provider"  %} ">Показать поставщиков</a></td>
+            <td><a href="{% url "add_provider" %}">Добавить поставщика</a></td>
+        </tr>
+        <tr>
+            <td><a href="{% url "firm" %}">Показать фирмы</a></td>
+            <td><a href="{% url "add_firm" %}">Добавить фирму</a></td>
+        </tr>
+        <tr>
+            <td><a href="{% url "seller" %}">Показать продавцов</a></td>
+            <td><a href="{% url "add_seller" %}">Добавить продавца</a></td>
+        </tr>
+        <tr>
+            <td><a href="{% url "type" %}">Показать типы оборудований</a></td>
+            <td><a href="{% url "add_type" %}">Добавить тип оборудования</a></td>
+        </tr>
+        <tr>
+            <td><a href="{% url "equipment" %}">Показать оборудование</a></td>
+            <td><a href="{% url "add_equipment" %}">Добавить оборудование</a></td>
+        </tr>
+    </table>
+{% endblock content %}

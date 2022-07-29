@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container" style="margin-top: 80px">
+
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <table class="table table-hover" style="background-color: white">
+                    <thead class="bg-info">
+                    <tr>
+                        <td><a href="{% url "show_rent" %}">Посмотреть аренды</a></td>
+                        <td><a href="{% url "show_rank" %}">Посмотреть классы</a></td>
+                        <td><a href="{% url "show_mark" %}">Посмотреть марки</a></td>
+                        <td><a href="{% url "show_operator" %}">Посмотреть операторов</a></td>
+                        <td><a href="{% url "show_tariffs" %}">Посмотреть тарифы</a></td>
+                        <td><a href="{% url "show_fuel" %}">Посмотреть топливо</a></td>
+
+                    </tr>
+                    <tr>
+                        <td><a href="{% url 'add_model' %}">Добавить модель</a></td>
+                        <td><a href="{% url "add_rank" %}">Добавить классы</a></td>
+                        <td><a href="{% url "add_mark" %}">Добавить марки</a></td>
+                        <td><a href="{% url "add_operator" %}">Добавить операторов</a></td>
+                        <td><a href="{% url "add_tariff" %}">Добавить тарифы</a></td>
+                        <td><a href="{% url "add_fuel" %}">Добавить топливо</a></td>
+
+                    </tr>
+                    </thead>
+
+                </table>
+
+
+
+
+        </div>
+
+    </div>
+
+    </div>
+{% endblock %}

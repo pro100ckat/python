@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% load static %}
+
+    <div class="container" style="margin-top: 80px;">
+
+        <!-- START THE FEATURETTES -->
+
+        {% for tar in tariff_list %}
+
+                <div class="row featurette">
+                    <div class="col-md-7 first">
+                        <h2 class="featurette-heading">{{ tar.name }} <span class="text-muted"></span></h2>
+                        <p class="lead">{{ tar.description }}</p>
+                        <h2><span class="text-muted">Стомость: {{ tar.price }}р</span></h2>
+                    </div>
+
+                    <div class="col-md-5 second">
+                        <img class="featurette-image img-fluid mx-auto" src="{% static "img/4.png" %}"
+                             alt="Generic placeholder image">
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+
+
+
+
+        {% endfor %}
+
+
+
+
+
+    </div>
+    </div>
+{% endblock content %}

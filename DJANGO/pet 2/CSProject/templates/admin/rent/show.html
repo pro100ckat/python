@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Аренда
+{% endblock title %}
+
+{% block content %}
+    <div class="container" style="margin-top: 80px;">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                    <table class="table table-hover" style="background-color: white">
+                    <thead class="bg-info">
+                    <tr>
+                        <td>Арендатор</td>
+                        <td>Телефон</td>
+                        <td>Оператор</td>
+                        <td>Марка</td>
+                        <td>Модель</td>
+                        <td>Тариф</td>
+                        <td>Время аренды</td>
+                        <td>Изменить</td>
+                        <td>Удалить</td>
+                    </tr>
+                    </thead>
+                     {% for rent in rent_list %}
+                        <tr>
+
+                            <td>{{ rent.name }}</td>
+                            <td>{{ rent.phone }}</td>
+                            <td>{{ rent.id_operator.name }}</td>
+                            <td>{{ rent.id_model.mark_id.name}}</td>
+                            <td>{{ rent.id_model.name }}</td>
+                            <td>{{ rent.id_tariff.name }}</td>
+                            <td>{{ rent.time }}</td>
+                            <td><a href="{% url "edit_rent" rent.rent_id %}" class="btn btn-primary" role="button">Изменить</a>
+                            </td>
+                            <td><a href="{% url "delete_rent" rent.rent_id %}" class="btn btn-secondary" role="button">Удалить</a></td>
+
+
+
+
+                    {% endfor %}
+                    </table>
+
+            </div>
+
+        </div>
+  <div class="row">
+            <div class="col-md-2 offset-md-10">
+                <a href="{% url "admin_menu" %}" class="btn btn-primary" role="button">На главную</a>
+            </div>
+        </div>
+
+    </div>
+{% endblock content %}

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block title %}Firms{% endblock title %}
+{% block content %}
+<div align="center">
+    <table class="table table-hover">
+    <thead class="bg-info">
+        <tr>
+            <td>Наименование фирмы</td>
+            <td>Адрес фирмы</td>
+            <td>Страна фирмы</td>
+            <td>Телефон фирмы</td>
+            <td>Сайт фирмы</td>
+            <td>Изменить</td>
+            <td>Удалить</td>
+        </tr>
+    </thead>
+{% for firm in firm_list  %}
+    <tr>
+        <td>{{ firm.firm_name }}</td>
+        <td>{{ firm.firm_address }}</td>
+        <td>{{ firm.firm_country }}</td>
+        <td>{{ firm.firm_number }}</td>
+        <td>{{ firm.firm_site }}</td>
+        <td><a href="{% url "edit_firm" firm.firm_id %}" class="btn btn-primary" role="button">Изменить</a></td>
+        <td><a href="{% url "delete_firm" firm.firm_id %}" class="btn btn-secondary" role="button">Удалить</a></td>
+    </tr>
+{% endfor %}
+</table>
+</div>
+{% endblock content %}

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="container-fluid" style="margin-top: 80px;">
+
+    <div class="row">
+
+        <div class="col-md-12">
+            <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7" >
+          <h2 class="featurette-heading display-4 first">Марка:  <span class="text-muted">{{ car.mark_id }}</span></h2>
+          <p class="lead second">Модель: {{ car.name }}</p>
+            <p class="lead second">Топливо: {{ car.id_fuel }}</p>
+            <p class="lead second">Класс: {{ car.id_rank }}</p>
+
+              <form action="" method="POST">
+                {% csrf_token %}
+                  <table class="table table-hover bg-light third">
+                {{ form.as_table }}
+                  </table>
+                <input type="submit"  value="Заказать" class="btn btn-outline-info btn-lg order" >
+
+            </form>
+
+        </div>
+        <div class="col-md-5">
+         <img src="{{ car.photo.url }}" class="img-fluid rounded second" alt="Responsive image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+        </div>
+    </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.rawgit.com/alertifyjs/alertify.js/v1.0.10/dist/js/alertify.js"></script>
+    <script language="JavaScript">
+        var doc = document,
+        elem = doc.getElementsByClassName("order")[0];
+        elem.addEventListener("click",function () {
+
+            alertify.alert("Ваш заказ принят, ожидайте звонка оператора, спасибо!");
+
+        },true);
+
+    </script>
+{% endblock %}

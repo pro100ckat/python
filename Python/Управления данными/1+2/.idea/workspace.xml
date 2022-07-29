@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24be10b1-058e-4f31-ac1c-6e641516cac3" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lab1$lab1.coverage" NAME="lab1 Coverage Results" MODIFIED="1525369818610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="postgres@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="postgres@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="test" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="postgres@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="test" type="e3449647:DbNodeDescriptor" />
+        <item name="public" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="postgres@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="test" type="e3449647:DbNodeDescriptor" />
+        <item name="public" type="e3449647:DbNodeDescriptor" />
+        <item name="" type="fce03ad6:DatabaseStructure$GroupNode" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="postgres@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="test" type="e3449647:DbNodeDescriptor" />
+        <item name="public" type="e3449647:DbNodeDescriptor" />
+        <item name="" type="fce03ad6:DatabaseStructure$GroupNode" />
+        <item name="drivers" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="postgres@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="test" type="e3449647:DbNodeDescriptor" />
+        <item name="public" type="e3449647:DbNodeDescriptor" />
+        <item name="" type="fce03ad6:DatabaseStructure$GroupNode" />
+        <item name="orders" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="lab1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="297" column="24" lean-forward="true" selection-start-line="297" selection-start-column="24" selection-end-line="297" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#444#834#0" expanded="false" />
+                <element signature="e#866#1371#0" expanded="false" />
+                <element signature="e#1402#1989#0" expanded="false" />
+                <element signature="e#2021#2442#0" expanded="false" />
+                <element signature="e#2034#2343#0" expanded="false" />
+                <element signature="e#2471#2817#0" expanded="false" />
+                <element signature="e#2846#3259#0" expanded="false" />
+                <element signature="e#3286#3746#0" expanded="false" />
+                <element signature="e#3775#4111#0" expanded="false" />
+                <element signature="e#4140#4548#0" expanded="false" />
+                <element signature="e#4579#5241#0" expanded="false" />
+                <element signature="e#5278#5551#0" expanded="false" />
+                <element signature="e#5644#6405#0" expanded="false" />
+                <element signature="e#6509#7096#0" expanded="false" />
+                <element signature="e#7188#7623#0" expanded="false" />
+                <element signature="e#7645#8202#0" expanded="false" />
+                <element signature="e#8285#8644#0" expanded="false" />
+                <element signature="e#8735#9030#0" expanded="false" />
+                <element signature="e#9061#9374#0" expanded="false" />
+                <element signature="e#9402#9715#0" expanded="false" />
+                <element signature="e#9761#10108#0" expanded="false" />
+                <element signature="e#10150#10451#0" expanded="false" />
+                <marker date="1525369745060" expanded="true" signature="487:508" ph="SELECT * FRO... drivers" />
+                <marker date="1525369745060" expanded="true" signature="1125:1234" ph="INSERT INTO PUBLIC.\&quot;drivers\&quot;... " />
+                <marker date="1525369745060" expanded="true" signature="1125:1281" ph="INSERT INTO PUBLIC.\&quot;firm\&quot;... " />
+                <marker date="1525369745060" expanded="true" signature="1717:1865" ph="UPDATE PUBLI... " />
+                <marker date="1525369745060" expanded="true" signature="2178:2238" ph="DELETE FROM " />
+                <marker date="1525369745060" expanded="true" signature="2514:2532" ph="SELECT * FRO... cars" />
+                <marker date="1525369745060" expanded="true" signature="3000:3054" ph="DELETE FROM " />
+                <marker date="1525369745060" expanded="true" signature="3550:3658" ph="UPDATE PUBLI... " />
+                <marker date="1525369745060" expanded="true" signature="3953:4056" ph="INSERT INTO PUBLIC.\&quot;cars\&quot;... " />
+                <marker date="1525369745060" expanded="true" signature="4183:4203" ph="SELECT * FRO... orders" />
+                <marker date="1525369745060" expanded="true" signature="4926:5095" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+                <marker date="1525369745060" expanded="true" signature="4926:5132" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+                <marker date="1525369745060" expanded="true" signature="5392:5443" ph="DELETE FROM " />
+                <marker date="1525369745060" expanded="true" signature="6079:6182" ph="UPDATE PUBLI... " />
+                <marker date="1525369745060" expanded="true" signature="6079:6200" ph="UPDATE PUBLI... " />
+                <marker date="1525369745060" expanded="true" signature="6079:6210" ph="UPDATE PUBLI... " />
+                <marker date="1525369745060" expanded="true" signature="6079:6211" ph="UPDATE PUBLI... " />
+                <marker date="1525369745060" expanded="true" signature="6079:6236" ph="UPDATE PUBLI... " />
+                <marker date="1525369745060" expanded="true" signature="6079:6282" ph="UPDATE PUBLI... " />
+                <marker date="1525369745060" expanded="true" signature="6552:6803" ph="SELECT id, d... cars" />
+                <marker date="1525369745060" expanded="true" signature="7231:7390" ph="SELECT id_ca... cars" />
+                <marker date="1525369745060" expanded="true" signature="7688:7941" ph="SELECT drive... drivers" />
+                <marker date="1525369745060" expanded="true" signature="8329:8343" ph="SELECT * FRO... Car" />
+                <marker date="1525369745060" expanded="true" signature="8329:8412" ph="SELECT * FRO... cars" />
+                <marker date="1525369745060" expanded="true" signature="8376:8411" ph="SELECT MAX(p... cars" />
+                <marker date="1525369745060" expanded="true" signature="8778:8808" ph="SELECT Mark,... Car" />
+                <marker date="1525369745060" expanded="true" signature="8778:8828" ph="SELECT Mark,... Cars" />
+                <marker date="1525369745060" expanded="true" signature="9104:9117" ph="SELECT Mark,... Cars" />
+                <marker date="1525369745060" expanded="true" signature="9104:9142" ph="SELECT Mark,... Car" />
+                <marker date="1525369745060" expanded="true" signature="9104:9170" ph="SELECT Mark,... Cars" />
+                <marker date="1525369745060" expanded="true" signature="9445:9508" ph="SELECT categ... Drivers" />
+                <marker date="1525369745060" expanded="true" signature="9804:9916" ph="SELECT drive... Drivers" />
+                <marker date="1525369745060" expanded="true" signature="9878:9915" ph="SELECT MAX(d... Drivers" />
+                <marker date="1525369745060" expanded="true" signature="10193:10246" ph="SELECT Mark,... Cars" />
+                <marker date="1525369745060" expanded="true" signature="10669:10856" ph="SELECT Drive... Drivers" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lab1.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="40" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.lab1">
+    <configuration name="lab1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="lab1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.lab1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24be10b1-058e-4f31-ac1c-6e641516cac3" name="Default" comment="" />
+      <created>1522786358728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522786358728</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12102874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27231467" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46153846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#444#834#0" expanded="false" />
+            <element signature="e#866#1371#0" expanded="false" />
+            <element signature="e#1402#1989#0" expanded="false" />
+            <element signature="e#2021#2442#0" expanded="false" />
+            <element signature="e#2034#2343#0" expanded="false" />
+            <element signature="e#2471#2817#0" expanded="false" />
+            <element signature="e#2846#3259#0" expanded="false" />
+            <element signature="e#3286#3746#0" expanded="false" />
+            <element signature="e#3775#4111#0" expanded="false" />
+            <element signature="e#4140#4548#0" expanded="false" />
+            <element signature="e#4579#5241#0" expanded="false" />
+            <element signature="e#5278#5551#0" expanded="false" />
+            <element signature="e#5644#6405#0" expanded="false" />
+            <element signature="e#6509#7096#0" expanded="false" />
+            <element signature="e#7188#7623#0" expanded="false" />
+            <element signature="e#7645#8202#0" expanded="false" />
+            <element signature="e#8285#8644#0" expanded="false" />
+            <element signature="e#8735#9030#0" expanded="false" />
+            <element signature="e#9061#9374#0" expanded="false" />
+            <element signature="e#9402#9715#0" expanded="false" />
+            <element signature="e#9761#10108#0" expanded="false" />
+            <element signature="e#10150#10451#0" expanded="false" />
+            <marker date="1525369745060" expanded="true" signature="487:508" ph="SELECT * FRO... drivers" />
+            <marker date="1525369745060" expanded="true" signature="1125:1234" ph="INSERT INTO PUBLIC.\&quot;drivers\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1125:1281" ph="INSERT INTO PUBLIC.\&quot;firm\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1717:1865" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="2178:2238" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="2514:2532" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="3000:3054" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="3550:3658" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="3953:4056" ph="INSERT INTO PUBLIC.\&quot;cars\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4183:4203" ph="SELECT * FRO... orders" />
+            <marker date="1525369745060" expanded="true" signature="4926:5095" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4926:5132" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="5392:5443" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="6079:6182" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6200" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6210" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6211" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6236" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6282" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6552:6803" ph="SELECT id, d... cars" />
+            <marker date="1525369745060" expanded="true" signature="7231:7390" ph="SELECT id_ca... cars" />
+            <marker date="1525369745060" expanded="true" signature="7688:7941" ph="SELECT drive... drivers" />
+            <marker date="1525369745060" expanded="true" signature="8329:8343" ph="SELECT * FRO... Car" />
+            <marker date="1525369745060" expanded="true" signature="8329:8412" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="8376:8411" ph="SELECT MAX(p... cars" />
+            <marker date="1525369745060" expanded="true" signature="8778:8808" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="8778:8828" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9117" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9142" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="9104:9170" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9445:9508" ph="SELECT categ... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9804:9916" ph="SELECT drive... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9878:9915" ph="SELECT MAX(d... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="10193:10246" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="10669:10856" ph="SELECT Drive... Drivers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#444#834#0" expanded="false" />
+            <element signature="e#866#1371#0" expanded="false" />
+            <element signature="e#1402#1989#0" expanded="false" />
+            <element signature="e#2021#2442#0" expanded="false" />
+            <element signature="e#2034#2343#0" expanded="false" />
+            <element signature="e#2471#2817#0" expanded="false" />
+            <element signature="e#2846#3259#0" expanded="false" />
+            <element signature="e#3286#3746#0" expanded="false" />
+            <element signature="e#3775#4111#0" expanded="false" />
+            <element signature="e#4140#4548#0" expanded="false" />
+            <element signature="e#4579#5241#0" expanded="false" />
+            <element signature="e#5278#5551#0" expanded="false" />
+            <element signature="e#5644#6405#0" expanded="false" />
+            <element signature="e#6509#7096#0" expanded="false" />
+            <element signature="e#7188#7623#0" expanded="false" />
+            <element signature="e#7645#8202#0" expanded="false" />
+            <element signature="e#8285#8644#0" expanded="false" />
+            <element signature="e#8735#9030#0" expanded="false" />
+            <element signature="e#9061#9374#0" expanded="false" />
+            <element signature="e#9402#9715#0" expanded="false" />
+            <element signature="e#9761#10108#0" expanded="false" />
+            <element signature="e#10150#10451#0" expanded="false" />
+            <marker date="1525369745060" expanded="true" signature="487:508" ph="SELECT * FRO... drivers" />
+            <marker date="1525369745060" expanded="true" signature="1125:1234" ph="INSERT INTO PUBLIC.\&quot;drivers\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1125:1281" ph="INSERT INTO PUBLIC.\&quot;firm\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1717:1865" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="2178:2238" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="2514:2532" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="3000:3054" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="3550:3658" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="3953:4056" ph="INSERT INTO PUBLIC.\&quot;cars\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4183:4203" ph="SELECT * FRO... orders" />
+            <marker date="1525369745060" expanded="true" signature="4926:5095" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4926:5132" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="5392:5443" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="6079:6182" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6200" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6210" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6211" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6236" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6282" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6552:6803" ph="SELECT id, d... cars" />
+            <marker date="1525369745060" expanded="true" signature="7231:7390" ph="SELECT id_ca... cars" />
+            <marker date="1525369745060" expanded="true" signature="7688:7941" ph="SELECT drive... drivers" />
+            <marker date="1525369745060" expanded="true" signature="8329:8343" ph="SELECT * FRO... Car" />
+            <marker date="1525369745060" expanded="true" signature="8329:8412" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="8376:8411" ph="SELECT MAX(p... cars" />
+            <marker date="1525369745060" expanded="true" signature="8778:8808" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="8778:8828" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9117" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9142" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="9104:9170" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9445:9508" ph="SELECT categ... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9804:9916" ph="SELECT drive... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9878:9915" ph="SELECT MAX(d... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="10193:10246" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="10669:10856" ph="SELECT Drive... Drivers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#444#834#0" expanded="false" />
+            <element signature="e#866#1371#0" expanded="false" />
+            <element signature="e#1402#1989#0" expanded="false" />
+            <element signature="e#2021#2442#0" expanded="false" />
+            <element signature="e#2034#2343#0" expanded="false" />
+            <element signature="e#2471#2817#0" expanded="false" />
+            <element signature="e#2846#3259#0" expanded="false" />
+            <element signature="e#3286#3746#0" expanded="false" />
+            <element signature="e#3775#4111#0" expanded="false" />
+            <element signature="e#4140#4548#0" expanded="false" />
+            <element signature="e#4579#5241#0" expanded="false" />
+            <element signature="e#5278#5551#0" expanded="false" />
+            <element signature="e#5644#6405#0" expanded="false" />
+            <element signature="e#6509#7096#0" expanded="false" />
+            <element signature="e#7188#7623#0" expanded="false" />
+            <element signature="e#7645#8202#0" expanded="false" />
+            <element signature="e#8285#8644#0" expanded="false" />
+            <element signature="e#8735#9030#0" expanded="false" />
+            <element signature="e#9061#9374#0" expanded="false" />
+            <element signature="e#9402#9715#0" expanded="false" />
+            <element signature="e#9761#10108#0" expanded="false" />
+            <element signature="e#10150#10451#0" expanded="false" />
+            <marker date="1525369745060" expanded="true" signature="487:508" ph="SELECT * FRO... drivers" />
+            <marker date="1525369745060" expanded="true" signature="1125:1234" ph="INSERT INTO PUBLIC.\&quot;drivers\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1125:1281" ph="INSERT INTO PUBLIC.\&quot;firm\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1717:1865" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="2178:2238" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="2514:2532" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="3000:3054" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="3550:3658" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="3953:4056" ph="INSERT INTO PUBLIC.\&quot;cars\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4183:4203" ph="SELECT * FRO... orders" />
+            <marker date="1525369745060" expanded="true" signature="4926:5095" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4926:5132" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="5392:5443" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="6079:6182" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6200" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6210" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6211" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6236" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6282" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6552:6803" ph="SELECT id, d... cars" />
+            <marker date="1525369745060" expanded="true" signature="7231:7390" ph="SELECT id_ca... cars" />
+            <marker date="1525369745060" expanded="true" signature="7688:7941" ph="SELECT drive... drivers" />
+            <marker date="1525369745060" expanded="true" signature="8329:8343" ph="SELECT * FRO... Car" />
+            <marker date="1525369745060" expanded="true" signature="8329:8412" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="8376:8411" ph="SELECT MAX(p... cars" />
+            <marker date="1525369745060" expanded="true" signature="8778:8808" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="8778:8828" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9117" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9142" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="9104:9170" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9445:9508" ph="SELECT categ... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9804:9916" ph="SELECT drive... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9878:9915" ph="SELECT MAX(d... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="10193:10246" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="10669:10856" ph="SELECT Drive... Drivers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#444#834#0" expanded="false" />
+            <element signature="e#866#1371#0" expanded="false" />
+            <element signature="e#1402#1989#0" expanded="false" />
+            <element signature="e#2021#2442#0" expanded="false" />
+            <element signature="e#2034#2343#0" expanded="false" />
+            <element signature="e#2471#2817#0" expanded="false" />
+            <element signature="e#2846#3259#0" expanded="false" />
+            <element signature="e#3286#3746#0" expanded="false" />
+            <element signature="e#3775#4111#0" expanded="false" />
+            <element signature="e#4140#4548#0" expanded="false" />
+            <element signature="e#4579#5241#0" expanded="false" />
+            <element signature="e#5278#5551#0" expanded="false" />
+            <element signature="e#5644#6405#0" expanded="false" />
+            <element signature="e#6509#7096#0" expanded="false" />
+            <element signature="e#7188#7623#0" expanded="false" />
+            <element signature="e#7645#8202#0" expanded="false" />
+            <element signature="e#8285#8644#0" expanded="false" />
+            <element signature="e#8735#9030#0" expanded="false" />
+            <element signature="e#9061#9374#0" expanded="false" />
+            <element signature="e#9402#9715#0" expanded="false" />
+            <element signature="e#9761#10108#0" expanded="false" />
+            <element signature="e#10150#10451#0" expanded="false" />
+            <marker date="1525369745060" expanded="true" signature="487:508" ph="SELECT * FRO... drivers" />
+            <marker date="1525369745060" expanded="true" signature="1125:1234" ph="INSERT INTO PUBLIC.\&quot;drivers\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1125:1281" ph="INSERT INTO PUBLIC.\&quot;firm\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1717:1865" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="2178:2238" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="2514:2532" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="3000:3054" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="3550:3658" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="3953:4056" ph="INSERT INTO PUBLIC.\&quot;cars\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4183:4203" ph="SELECT * FRO... orders" />
+            <marker date="1525369745060" expanded="true" signature="4926:5095" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4926:5132" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="5392:5443" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="6079:6182" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6200" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6210" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6211" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6236" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6282" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6552:6803" ph="SELECT id, d... cars" />
+            <marker date="1525369745060" expanded="true" signature="7231:7390" ph="SELECT id_ca... cars" />
+            <marker date="1525369745060" expanded="true" signature="7688:7941" ph="SELECT drive... drivers" />
+            <marker date="1525369745060" expanded="true" signature="8329:8343" ph="SELECT * FRO... Car" />
+            <marker date="1525369745060" expanded="true" signature="8329:8412" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="8376:8411" ph="SELECT MAX(p... cars" />
+            <marker date="1525369745060" expanded="true" signature="8778:8808" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="8778:8828" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9117" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9142" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="9104:9170" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9445:9508" ph="SELECT categ... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9804:9916" ph="SELECT drive... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9878:9915" ph="SELECT MAX(d... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="10193:10246" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="10669:10856" ph="SELECT Drive... Drivers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#444#834#0" expanded="false" />
+            <element signature="e#866#1371#0" expanded="false" />
+            <element signature="e#1402#1989#0" expanded="false" />
+            <element signature="e#2021#2442#0" expanded="false" />
+            <element signature="e#2034#2343#0" expanded="false" />
+            <element signature="e#2471#2817#0" expanded="false" />
+            <element signature="e#2846#3259#0" expanded="false" />
+            <element signature="e#3286#3746#0" expanded="false" />
+            <element signature="e#3775#4111#0" expanded="false" />
+            <element signature="e#4140#4548#0" expanded="false" />
+            <element signature="e#4579#5241#0" expanded="false" />
+            <element signature="e#5278#5551#0" expanded="false" />
+            <element signature="e#5644#6405#0" expanded="false" />
+            <element signature="e#6509#7096#0" expanded="false" />
+            <element signature="e#7188#7623#0" expanded="false" />
+            <element signature="e#7645#8202#0" expanded="false" />
+            <element signature="e#8285#8644#0" expanded="false" />
+            <element signature="e#8735#9030#0" expanded="false" />
+            <element signature="e#9061#9374#0" expanded="false" />
+            <element signature="e#9402#9715#0" expanded="false" />
+            <element signature="e#9761#10108#0" expanded="false" />
+            <element signature="e#10150#10451#0" expanded="false" />
+            <marker date="1525369745060" expanded="true" signature="487:508" ph="SELECT * FRO... drivers" />
+            <marker date="1525369745060" expanded="true" signature="1125:1234" ph="INSERT INTO PUBLIC.\&quot;drivers\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1125:1281" ph="INSERT INTO PUBLIC.\&quot;firm\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1717:1865" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="2178:2238" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="2514:2532" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="3000:3054" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="3550:3658" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="3953:4056" ph="INSERT INTO PUBLIC.\&quot;cars\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4183:4203" ph="SELECT * FRO... orders" />
+            <marker date="1525369745060" expanded="true" signature="4926:5095" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4926:5132" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="5392:5443" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="6079:6182" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6200" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6210" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6211" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6236" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6282" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6552:6803" ph="SELECT id, d... cars" />
+            <marker date="1525369745060" expanded="true" signature="7231:7390" ph="SELECT id_ca... cars" />
+            <marker date="1525369745060" expanded="true" signature="7688:7941" ph="SELECT drive... drivers" />
+            <marker date="1525369745060" expanded="true" signature="8329:8343" ph="SELECT * FRO... Car" />
+            <marker date="1525369745060" expanded="true" signature="8329:8412" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="8376:8411" ph="SELECT MAX(p... cars" />
+            <marker date="1525369745060" expanded="true" signature="8778:8808" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="8778:8828" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9117" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9142" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="9104:9170" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9445:9508" ph="SELECT categ... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9804:9916" ph="SELECT drive... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9878:9915" ph="SELECT MAX(d... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="10193:10246" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="10669:10856" ph="SELECT Drive... Drivers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#444#834#0" expanded="false" />
+            <element signature="e#866#1371#0" expanded="false" />
+            <element signature="e#1402#1989#0" expanded="false" />
+            <element signature="e#2021#2442#0" expanded="false" />
+            <element signature="e#2034#2343#0" expanded="false" />
+            <element signature="e#2471#2817#0" expanded="false" />
+            <element signature="e#2846#3259#0" expanded="false" />
+            <element signature="e#3286#3746#0" expanded="false" />
+            <element signature="e#3775#4111#0" expanded="false" />
+            <element signature="e#4140#4548#0" expanded="false" />
+            <element signature="e#4579#5241#0" expanded="false" />
+            <element signature="e#5278#5551#0" expanded="false" />
+            <element signature="e#5644#6405#0" expanded="false" />
+            <element signature="e#6509#7096#0" expanded="false" />
+            <element signature="e#7188#7623#0" expanded="false" />
+            <element signature="e#7645#8202#0" expanded="false" />
+            <element signature="e#8285#8644#0" expanded="false" />
+            <element signature="e#8735#9030#0" expanded="false" />
+            <element signature="e#9061#9374#0" expanded="false" />
+            <element signature="e#9402#9715#0" expanded="false" />
+            <element signature="e#9761#10108#0" expanded="false" />
+            <element signature="e#10150#10451#0" expanded="false" />
+            <marker date="1525369745060" expanded="true" signature="487:508" ph="SELECT * FRO... drivers" />
+            <marker date="1525369745060" expanded="true" signature="1125:1234" ph="INSERT INTO PUBLIC.\&quot;drivers\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1125:1281" ph="INSERT INTO PUBLIC.\&quot;firm\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1717:1865" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="2178:2238" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="2514:2532" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="3000:3054" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="3550:3658" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="3953:4056" ph="INSERT INTO PUBLIC.\&quot;cars\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4183:4203" ph="SELECT * FRO... orders" />
+            <marker date="1525369745060" expanded="true" signature="4926:5095" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4926:5132" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="5392:5443" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="6079:6182" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6200" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6210" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6211" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6236" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6282" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6552:6803" ph="SELECT id, d... cars" />
+            <marker date="1525369745060" expanded="true" signature="7231:7390" ph="SELECT id_ca... cars" />
+            <marker date="1525369745060" expanded="true" signature="7688:7941" ph="SELECT drive... drivers" />
+            <marker date="1525369745060" expanded="true" signature="8329:8343" ph="SELECT * FRO... Car" />
+            <marker date="1525369745060" expanded="true" signature="8329:8412" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="8376:8411" ph="SELECT MAX(p... cars" />
+            <marker date="1525369745060" expanded="true" signature="8778:8808" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="8778:8828" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9117" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9142" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="9104:9170" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9445:9508" ph="SELECT categ... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9804:9916" ph="SELECT drive... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9878:9915" ph="SELECT MAX(d... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="10193:10246" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="10669:10856" ph="SELECT Drive... Drivers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#444#834#0" expanded="false" />
+            <element signature="e#866#1371#0" expanded="false" />
+            <element signature="e#1402#1989#0" expanded="false" />
+            <element signature="e#2021#2442#0" expanded="false" />
+            <element signature="e#2034#2343#0" expanded="false" />
+            <element signature="e#2471#2817#0" expanded="false" />
+            <element signature="e#2846#3259#0" expanded="false" />
+            <element signature="e#3286#3746#0" expanded="false" />
+            <element signature="e#3775#4111#0" expanded="false" />
+            <element signature="e#4140#4548#0" expanded="false" />
+            <element signature="e#4579#5241#0" expanded="false" />
+            <element signature="e#5278#5551#0" expanded="false" />
+            <element signature="e#5644#6405#0" expanded="false" />
+            <element signature="e#6509#7096#0" expanded="false" />
+            <element signature="e#7188#7623#0" expanded="false" />
+            <element signature="e#7645#8202#0" expanded="false" />
+            <element signature="e#8285#8644#0" expanded="false" />
+            <element signature="e#8735#9030#0" expanded="false" />
+            <element signature="e#9061#9374#0" expanded="false" />
+            <element signature="e#9402#9715#0" expanded="false" />
+            <element signature="e#9761#10108#0" expanded="false" />
+            <element signature="e#10150#10451#0" expanded="false" />
+            <marker date="1525369745060" expanded="true" signature="487:508" ph="SELECT * FRO... drivers" />
+            <marker date="1525369745060" expanded="true" signature="1125:1234" ph="INSERT INTO PUBLIC.\&quot;drivers\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1125:1281" ph="INSERT INTO PUBLIC.\&quot;firm\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1717:1865" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="2178:2238" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="2514:2532" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="3000:3054" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="3550:3658" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="3953:4056" ph="INSERT INTO PUBLIC.\&quot;cars\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4183:4203" ph="SELECT * FRO... orders" />
+            <marker date="1525369745060" expanded="true" signature="4926:5095" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4926:5132" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="5392:5443" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="6079:6182" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6200" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6210" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6211" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6236" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6282" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6552:6803" ph="SELECT id, d... cars" />
+            <marker date="1525369745060" expanded="true" signature="7231:7390" ph="SELECT id_ca... cars" />
+            <marker date="1525369745060" expanded="true" signature="7688:7941" ph="SELECT drive... drivers" />
+            <marker date="1525369745060" expanded="true" signature="8329:8343" ph="SELECT * FRO... Car" />
+            <marker date="1525369745060" expanded="true" signature="8329:8412" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="8376:8411" ph="SELECT MAX(p... cars" />
+            <marker date="1525369745060" expanded="true" signature="8778:8808" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="8778:8828" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9117" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9142" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="9104:9170" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9445:9508" ph="SELECT categ... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9804:9916" ph="SELECT drive... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9878:9915" ph="SELECT MAX(d... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="10193:10246" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="10669:10856" ph="SELECT Drive... Drivers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#444#834#0" expanded="false" />
+            <element signature="e#866#1371#0" expanded="false" />
+            <element signature="e#1402#1989#0" expanded="false" />
+            <element signature="e#2021#2442#0" expanded="false" />
+            <element signature="e#2034#2343#0" expanded="false" />
+            <element signature="e#2471#2817#0" expanded="false" />
+            <element signature="e#2846#3259#0" expanded="false" />
+            <element signature="e#3286#3746#0" expanded="false" />
+            <element signature="e#3775#4111#0" expanded="false" />
+            <element signature="e#4140#4548#0" expanded="false" />
+            <element signature="e#4579#5241#0" expanded="false" />
+            <element signature="e#5278#5551#0" expanded="false" />
+            <element signature="e#5644#6405#0" expanded="false" />
+            <element signature="e#6509#7096#0" expanded="false" />
+            <element signature="e#7188#7623#0" expanded="false" />
+            <element signature="e#7645#8202#0" expanded="false" />
+            <element signature="e#8285#8644#0" expanded="false" />
+            <element signature="e#8735#9030#0" expanded="false" />
+            <element signature="e#9061#9374#0" expanded="false" />
+            <element signature="e#9402#9715#0" expanded="false" />
+            <element signature="e#9761#10108#0" expanded="false" />
+            <element signature="e#10150#10451#0" expanded="false" />
+            <marker date="1525369745060" expanded="true" signature="487:508" ph="SELECT * FRO... drivers" />
+            <marker date="1525369745060" expanded="true" signature="1125:1234" ph="INSERT INTO PUBLIC.\&quot;drivers\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1125:1281" ph="INSERT INTO PUBLIC.\&quot;firm\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1717:1865" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="2178:2238" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="2514:2532" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="3000:3054" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="3550:3658" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="3953:4056" ph="INSERT INTO PUBLIC.\&quot;cars\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4183:4203" ph="SELECT * FRO... orders" />
+            <marker date="1525369745060" expanded="true" signature="4926:5095" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4926:5132" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="5392:5443" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="6079:6182" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6200" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6210" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6211" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6236" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6282" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6552:6803" ph="SELECT id, d... cars" />
+            <marker date="1525369745060" expanded="true" signature="7231:7390" ph="SELECT id_ca... cars" />
+            <marker date="1525369745060" expanded="true" signature="7688:7941" ph="SELECT drive... drivers" />
+            <marker date="1525369745060" expanded="true" signature="8329:8343" ph="SELECT * FRO... Car" />
+            <marker date="1525369745060" expanded="true" signature="8329:8412" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="8376:8411" ph="SELECT MAX(p... cars" />
+            <marker date="1525369745060" expanded="true" signature="8778:8808" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="8778:8828" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9117" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9142" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="9104:9170" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9445:9508" ph="SELECT categ... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9804:9916" ph="SELECT drive... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9878:9915" ph="SELECT MAX(d... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="10193:10246" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="10669:10856" ph="SELECT Drive... Drivers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#444#834#0" expanded="false" />
+            <element signature="e#866#1371#0" expanded="false" />
+            <element signature="e#1402#1989#0" expanded="false" />
+            <element signature="e#2021#2442#0" expanded="false" />
+            <element signature="e#2034#2343#0" expanded="false" />
+            <element signature="e#2471#2817#0" expanded="false" />
+            <element signature="e#2846#3259#0" expanded="false" />
+            <element signature="e#3286#3746#0" expanded="false" />
+            <element signature="e#3775#4111#0" expanded="false" />
+            <element signature="e#4140#4548#0" expanded="false" />
+            <element signature="e#4579#5241#0" expanded="false" />
+            <element signature="e#5278#5551#0" expanded="false" />
+            <element signature="e#5644#6405#0" expanded="false" />
+            <element signature="e#6509#7096#0" expanded="false" />
+            <element signature="e#7188#7623#0" expanded="false" />
+            <element signature="e#7645#8202#0" expanded="false" />
+            <element signature="e#8285#8644#0" expanded="false" />
+            <element signature="e#8735#9030#0" expanded="false" />
+            <element signature="e#9061#9374#0" expanded="false" />
+            <element signature="e#9402#9715#0" expanded="false" />
+            <element signature="e#9761#10108#0" expanded="false" />
+            <element signature="e#10150#10451#0" expanded="false" />
+            <marker date="1525369745060" expanded="true" signature="487:508" ph="SELECT * FRO... drivers" />
+            <marker date="1525369745060" expanded="true" signature="1125:1234" ph="INSERT INTO PUBLIC.\&quot;drivers\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1125:1281" ph="INSERT INTO PUBLIC.\&quot;firm\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1717:1865" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="2178:2238" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="2514:2532" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="3000:3054" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="3550:3658" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="3953:4056" ph="INSERT INTO PUBLIC.\&quot;cars\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4183:4203" ph="SELECT * FRO... orders" />
+            <marker date="1525369745060" expanded="true" signature="4926:5095" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4926:5132" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="5392:5443" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="6079:6182" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6200" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6210" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6211" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6236" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6282" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6552:6803" ph="SELECT id, d... cars" />
+            <marker date="1525369745060" expanded="true" signature="7231:7390" ph="SELECT id_ca... cars" />
+            <marker date="1525369745060" expanded="true" signature="7688:7941" ph="SELECT drive... drivers" />
+            <marker date="1525369745060" expanded="true" signature="8329:8343" ph="SELECT * FRO... Car" />
+            <marker date="1525369745060" expanded="true" signature="8329:8412" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="8376:8411" ph="SELECT MAX(p... cars" />
+            <marker date="1525369745060" expanded="true" signature="8778:8808" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="8778:8828" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9117" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9142" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="9104:9170" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9445:9508" ph="SELECT categ... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9804:9916" ph="SELECT drive... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9878:9915" ph="SELECT MAX(d... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="10193:10246" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="10669:10856" ph="SELECT Drive... Drivers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#444#834#0" expanded="false" />
+            <element signature="e#866#1371#0" expanded="false" />
+            <element signature="e#1402#1989#0" expanded="false" />
+            <element signature="e#2021#2442#0" expanded="false" />
+            <element signature="e#2034#2343#0" expanded="false" />
+            <element signature="e#2471#2817#0" expanded="false" />
+            <element signature="e#2846#3259#0" expanded="false" />
+            <element signature="e#3286#3746#0" expanded="false" />
+            <element signature="e#3775#4111#0" expanded="false" />
+            <element signature="e#4140#4548#0" expanded="false" />
+            <element signature="e#4579#5241#0" expanded="false" />
+            <element signature="e#5278#5551#0" expanded="false" />
+            <element signature="e#5644#6405#0" expanded="false" />
+            <element signature="e#6509#7096#0" expanded="false" />
+            <element signature="e#7188#7623#0" expanded="false" />
+            <element signature="e#7645#8202#0" expanded="false" />
+            <element signature="e#8285#8644#0" expanded="false" />
+            <element signature="e#8735#9030#0" expanded="false" />
+            <element signature="e#9061#9374#0" expanded="false" />
+            <element signature="e#9402#9715#0" expanded="false" />
+            <element signature="e#9761#10108#0" expanded="false" />
+            <element signature="e#10150#10451#0" expanded="false" />
+            <marker date="1525369745060" expanded="true" signature="487:508" ph="SELECT * FRO... drivers" />
+            <marker date="1525369745060" expanded="true" signature="1125:1234" ph="INSERT INTO PUBLIC.\&quot;drivers\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1125:1281" ph="INSERT INTO PUBLIC.\&quot;firm\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1717:1865" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="2178:2238" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="2514:2532" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="3000:3054" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="3550:3658" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="3953:4056" ph="INSERT INTO PUBLIC.\&quot;cars\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4183:4203" ph="SELECT * FRO... orders" />
+            <marker date="1525369745060" expanded="true" signature="4926:5095" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4926:5132" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="5392:5443" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="6079:6182" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6200" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6210" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6211" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6236" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6282" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6552:6803" ph="SELECT id, d... cars" />
+            <marker date="1525369745060" expanded="true" signature="7231:7390" ph="SELECT id_ca... cars" />
+            <marker date="1525369745060" expanded="true" signature="7688:7941" ph="SELECT drive... drivers" />
+            <marker date="1525369745060" expanded="true" signature="8329:8343" ph="SELECT * FRO... Car" />
+            <marker date="1525369745060" expanded="true" signature="8329:8412" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="8376:8411" ph="SELECT MAX(p... cars" />
+            <marker date="1525369745060" expanded="true" signature="8778:8808" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="8778:8828" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9117" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9142" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="9104:9170" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9445:9508" ph="SELECT categ... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9804:9916" ph="SELECT drive... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9878:9915" ph="SELECT MAX(d... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="10193:10246" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="10669:10856" ph="SELECT Drive... Drivers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#444#834#0" expanded="false" />
+            <element signature="e#866#1371#0" expanded="false" />
+            <element signature="e#1402#1989#0" expanded="false" />
+            <element signature="e#2021#2442#0" expanded="false" />
+            <element signature="e#2034#2343#0" expanded="false" />
+            <element signature="e#2471#2817#0" expanded="false" />
+            <element signature="e#2846#3259#0" expanded="false" />
+            <element signature="e#3286#3746#0" expanded="false" />
+            <element signature="e#3775#4111#0" expanded="false" />
+            <element signature="e#4140#4548#0" expanded="false" />
+            <element signature="e#4579#5241#0" expanded="false" />
+            <element signature="e#5278#5551#0" expanded="false" />
+            <element signature="e#5644#6405#0" expanded="false" />
+            <element signature="e#6509#7096#0" expanded="false" />
+            <element signature="e#7188#7623#0" expanded="false" />
+            <element signature="e#7645#8202#0" expanded="false" />
+            <element signature="e#8285#8644#0" expanded="false" />
+            <element signature="e#8735#9030#0" expanded="false" />
+            <element signature="e#9061#9374#0" expanded="false" />
+            <element signature="e#9402#9715#0" expanded="false" />
+            <element signature="e#9761#10108#0" expanded="false" />
+            <element signature="e#10150#10451#0" expanded="false" />
+            <marker date="1525369745060" expanded="true" signature="487:508" ph="SELECT * FRO... drivers" />
+            <marker date="1525369745060" expanded="true" signature="1125:1234" ph="INSERT INTO PUBLIC.\&quot;drivers\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1125:1281" ph="INSERT INTO PUBLIC.\&quot;firm\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1717:1865" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="2178:2238" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="2514:2532" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="3000:3054" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="3550:3658" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="3953:4056" ph="INSERT INTO PUBLIC.\&quot;cars\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4183:4203" ph="SELECT * FRO... orders" />
+            <marker date="1525369745060" expanded="true" signature="4926:5095" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4926:5132" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="5392:5443" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="6079:6182" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6200" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6210" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6211" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6236" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6282" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6552:6803" ph="SELECT id, d... cars" />
+            <marker date="1525369745060" expanded="true" signature="7231:7390" ph="SELECT id_ca... cars" />
+            <marker date="1525369745060" expanded="true" signature="7688:7941" ph="SELECT drive... drivers" />
+            <marker date="1525369745060" expanded="true" signature="8329:8343" ph="SELECT * FRO... Car" />
+            <marker date="1525369745060" expanded="true" signature="8329:8412" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="8376:8411" ph="SELECT MAX(p... cars" />
+            <marker date="1525369745060" expanded="true" signature="8778:8808" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="8778:8828" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9117" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9142" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="9104:9170" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9445:9508" ph="SELECT categ... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9804:9916" ph="SELECT drive... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9878:9915" ph="SELECT MAX(d... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="10193:10246" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="10669:10856" ph="SELECT Drive... Drivers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#444#834#0" expanded="false" />
+            <element signature="e#866#1371#0" expanded="false" />
+            <element signature="e#1402#1989#0" expanded="false" />
+            <element signature="e#2021#2442#0" expanded="false" />
+            <element signature="e#2034#2343#0" expanded="false" />
+            <element signature="e#2471#2817#0" expanded="false" />
+            <element signature="e#2846#3259#0" expanded="false" />
+            <element signature="e#3286#3746#0" expanded="false" />
+            <element signature="e#3775#4111#0" expanded="false" />
+            <element signature="e#4140#4548#0" expanded="false" />
+            <element signature="e#4579#5241#0" expanded="false" />
+            <element signature="e#5278#5551#0" expanded="false" />
+            <element signature="e#5644#6405#0" expanded="false" />
+            <element signature="e#6509#7096#0" expanded="false" />
+            <element signature="e#7188#7623#0" expanded="false" />
+            <element signature="e#7645#8202#0" expanded="false" />
+            <element signature="e#8285#8644#0" expanded="false" />
+            <element signature="e#8735#9030#0" expanded="false" />
+            <element signature="e#9061#9374#0" expanded="false" />
+            <element signature="e#9402#9715#0" expanded="false" />
+            <element signature="e#9761#10108#0" expanded="false" />
+            <element signature="e#10150#10451#0" expanded="false" />
+            <marker date="1525369745060" expanded="true" signature="487:508" ph="SELECT * FRO... drivers" />
+            <marker date="1525369745060" expanded="true" signature="1125:1234" ph="INSERT INTO PUBLIC.\&quot;drivers\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1125:1281" ph="INSERT INTO PUBLIC.\&quot;firm\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1717:1865" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="2178:2238" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="2514:2532" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="3000:3054" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="3550:3658" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="3953:4056" ph="INSERT INTO PUBLIC.\&quot;cars\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4183:4203" ph="SELECT * FRO... orders" />
+            <marker date="1525369745060" expanded="true" signature="4926:5095" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4926:5132" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="5392:5443" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="6079:6182" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6200" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6210" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6211" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6236" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6282" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6552:6803" ph="SELECT id, d... cars" />
+            <marker date="1525369745060" expanded="true" signature="7231:7390" ph="SELECT id_ca... cars" />
+            <marker date="1525369745060" expanded="true" signature="7688:7941" ph="SELECT drive... drivers" />
+            <marker date="1525369745060" expanded="true" signature="8329:8343" ph="SELECT * FRO... Car" />
+            <marker date="1525369745060" expanded="true" signature="8329:8412" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="8376:8411" ph="SELECT MAX(p... cars" />
+            <marker date="1525369745060" expanded="true" signature="8778:8808" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="8778:8828" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9117" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9142" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="9104:9170" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9445:9508" ph="SELECT categ... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9804:9916" ph="SELECT drive... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9878:9915" ph="SELECT MAX(d... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="10193:10246" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="10669:10856" ph="SELECT Drive... Drivers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1e71451a-7639-4968-b948-ec2fe0a13cf6/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/prettytable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="811" column="18" lean-forward="false" selection-start-line="811" selection-start-column="18" selection-end-line="811" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="297" column="24" lean-forward="true" selection-start-line="297" selection-start-column="24" selection-end-line="297" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#444#834#0" expanded="false" />
+            <element signature="e#866#1371#0" expanded="false" />
+            <element signature="e#1402#1989#0" expanded="false" />
+            <element signature="e#2021#2442#0" expanded="false" />
+            <element signature="e#2034#2343#0" expanded="false" />
+            <element signature="e#2471#2817#0" expanded="false" />
+            <element signature="e#2846#3259#0" expanded="false" />
+            <element signature="e#3286#3746#0" expanded="false" />
+            <element signature="e#3775#4111#0" expanded="false" />
+            <element signature="e#4140#4548#0" expanded="false" />
+            <element signature="e#4579#5241#0" expanded="false" />
+            <element signature="e#5278#5551#0" expanded="false" />
+            <element signature="e#5644#6405#0" expanded="false" />
+            <element signature="e#6509#7096#0" expanded="false" />
+            <element signature="e#7188#7623#0" expanded="false" />
+            <element signature="e#7645#8202#0" expanded="false" />
+            <element signature="e#8285#8644#0" expanded="false" />
+            <element signature="e#8735#9030#0" expanded="false" />
+            <element signature="e#9061#9374#0" expanded="false" />
+            <element signature="e#9402#9715#0" expanded="false" />
+            <element signature="e#9761#10108#0" expanded="false" />
+            <element signature="e#10150#10451#0" expanded="false" />
+            <marker date="1525369745060" expanded="true" signature="487:508" ph="SELECT * FRO... drivers" />
+            <marker date="1525369745060" expanded="true" signature="1125:1234" ph="INSERT INTO PUBLIC.\&quot;drivers\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1125:1281" ph="INSERT INTO PUBLIC.\&quot;firm\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="1717:1865" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="2178:2238" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="2514:2532" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="3000:3054" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="3550:3658" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="3953:4056" ph="INSERT INTO PUBLIC.\&quot;cars\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4183:4203" ph="SELECT * FRO... orders" />
+            <marker date="1525369745060" expanded="true" signature="4926:5095" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="4926:5132" ph="INSERT INTO PUBLIC.\&quot;orders\&quot;... " />
+            <marker date="1525369745060" expanded="true" signature="5392:5443" ph="DELETE FROM " />
+            <marker date="1525369745060" expanded="true" signature="6079:6182" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6200" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6210" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6211" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6236" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6079:6282" ph="UPDATE PUBLI... " />
+            <marker date="1525369745060" expanded="true" signature="6552:6803" ph="SELECT id, d... cars" />
+            <marker date="1525369745060" expanded="true" signature="7231:7390" ph="SELECT id_ca... cars" />
+            <marker date="1525369745060" expanded="true" signature="7688:7941" ph="SELECT drive... drivers" />
+            <marker date="1525369745060" expanded="true" signature="8329:8343" ph="SELECT * FRO... Car" />
+            <marker date="1525369745060" expanded="true" signature="8329:8412" ph="SELECT * FRO... cars" />
+            <marker date="1525369745060" expanded="true" signature="8376:8411" ph="SELECT MAX(p... cars" />
+            <marker date="1525369745060" expanded="true" signature="8778:8808" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="8778:8828" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9117" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9104:9142" ph="SELECT Mark,... Car" />
+            <marker date="1525369745060" expanded="true" signature="9104:9170" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="9445:9508" ph="SELECT categ... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9804:9916" ph="SELECT drive... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="9878:9915" ph="SELECT MAX(d... Drivers" />
+            <marker date="1525369745060" expanded="true" signature="10193:10246" ph="SELECT Mark,... Cars" />
+            <marker date="1525369745060" expanded="true" signature="10669:10856" ph="SELECT Drive... Drivers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+ {% load static %}
+    <div class="container" style="margin-top: 80px;">
+
+
+
+        <div class="row">
+      <section class="jumbotron text-center">
+      <div class="second">
+        <h1 class="jumbotron-heading">Операторы</h1>
+        <p class="lead text-muted">Наши операторы готовы помочь вам в любую минуту, разрешить разного класса проблемы, ответить на любой вопрос. Здесь вы можете ознакомиться с нашими операторами.</p>
+      </div>
+    </section>
+    </div>
+
+        <div class="row">
+            {% for operator in operator_list %}
+                <div class="col-md-4" style="margin-bottom: 15px;">
+                <div class="second rounded" style='background-image: url("{{ operator.photo.url }}");max-height: 280px; min-height: 280px; max-width: 356px; min-width: 356px; background-position: center; background-size: cover'>
+                    <h3 align="center" style="padding-top: 60%"> <span class="rounded" style="background: cornflowerblue; color: #fff; font-weight: 100">{{ operator.name }}</span></h3>
+
+                </div>
+
+                </div>
+            {% endfor %}
+        </div>
+
+
+
+
+
+
+
+    </div>
+{% endblock content %}
